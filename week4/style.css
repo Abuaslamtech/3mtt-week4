@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+.square {
+  width: 5rem;
+  height: 5rem;
+  background-color: blue;
+  margin: 1rem;
+  border-radius: 50%;
+  border: 0.5rem solid red;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
